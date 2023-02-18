@@ -11,6 +11,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { SucessoCadastroComponent } from './sucesso-cadastro/sucesso-cadastro.component';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
 import { FaixaEtariaDirective } from './directives/faixa-etaria.directive';
+import { CepValidatorDirective } from './directives/cep-validator.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { FaixaEtariaDirective } from './directives/faixa-etaria.directive';
     HeaderComponent, 
     FooterComponent, 
     CadastroComponent, 
-    SucessoCadastroComponent, MensagemComponent, FaixaEtariaDirective
+    SucessoCadastroComponent, MensagemComponent, FaixaEtariaDirective, CepValidatorDirective
   ],
   imports: [
     BrowserModule, 
